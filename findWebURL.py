@@ -3,7 +3,7 @@ import pyperclip, re
 protocolRegex = re.compile(r'''
     https?://           
     (?:w{3}\.)?         
-    [\_?\-?a-zA-Z0-9\.$]+                      
+    [a-zA-Z0-9._%+-]+                      
     [a-zA-Z]      
     ''', re.VERBOSE)
 
